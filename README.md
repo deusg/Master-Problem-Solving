@@ -1,73 +1,57 @@
-Python Beginner Projects
+# Python Beginner Projects
 
 This repository contains three beginner-friendly Python projects from the YouTube channel "Programming with Mosh - Python Projects for Beginners – Master Problem-Solving."
 
-Projects Included
+## Projects Included
 
-1. Dice Rolling Game
+### 1. Dice Rolling Game
 
 A simple command-line dice rolling game where the user can roll two dice and receive randomly generated values between 1 and 6.
 
-Features:
+**Features:**
 
-User can choose to roll the dice or exit the game.
+- User can choose to roll the dice or exit the game.
+- Generates two random numbers between 1 and 6.
+- Displays the results of each roll.
+- Provides a clean exit message when the user decides to quit.
 
-Generates two random numbers between 1 and 6.
+**How to Run:**
 
-Displays the results of each roll.
+1. Clone this repository.
+2. Open a terminal and navigate to the project folder.
+3. Run the script with `python dice_rolling_game.py`.
 
-Provides a clean exit message when the user decides to quit.
-
-How to Run:
-
-Clone this repository.
-
-Open a terminal and navigate to the project folder.
-
-Run the script with python dice_rolling_game.py.
-
-2. Number Guessing Game
+### 2. Number Guessing Game
 
 A simple number guessing game where the user attempts to guess a randomly generated number between 1 and 100.
 
-Features:
+**Features:**
 
-Generates a random number between 1 and 100.
+- Generates a random number between 1 and 100.
+- Provides feedback if the guess is too high or too low.
+- Handles invalid inputs gracefully.
+- Ends the game when the correct number is guessed.
 
-Provides feedback if the guess is too high or too low.
+**How to Run:**
 
-Handles invalid inputs gracefully.
+1. Clone this repository.
+2. Open a terminal and navigate to the project folder.
+3. Run the script with `python number_guessing_game.py`.
 
-Ends the game when the correct number is guessed.
-
-How to Run:
-
-Clone this repository.
-
-Open a terminal and navigate to the project folder.
-
-Run the script with python number_guessing_game.py.
-
-3. QR Code Generator
+### 3. QR Code Generator
 
 A script that generates a QR code from user input and saves it as an image file.
 
-Features:
+**Features:**
 
-Accepts text or a URL as input.
+- Accepts text or a URL as input.
+- Generates a QR code with customizable size and border.
+- Saves the QR code as an image file.
 
-Generates a QR code with customizable size and border.
+**How to Run:**
 
-Saves the QR code as an image file.
-
-How to Run:
-
-Clone this repository.
-
-Open a terminal and navigate to the project folder.
-
-Run the script with python qr_code_generator.py.
-
-Enter the text or URL when prompted.
-
-Provide a filename to save the QR code image.
+1. Clone this repository.
+2. Open a terminal and navigate to the project folder.
+3. Run the script with `python qr_code_generator.py`.
+4. Enter the text or URL when prompted.
+5. Provide a filename to save the QR code image.
